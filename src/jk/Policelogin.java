@@ -59,7 +59,6 @@ public class Policelogin extends javax.swing.JFrame {
         jCheckBox1 = new javax.swing.JCheckBox();
         jLabel3 = new javax.swing.JLabel();
         txt_combo = new javax.swing.JComboBox<>();
-        txt_password = new javax.swing.JPasswordField();
         jPanel2 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         Loginbttn = new javax.swing.JButton();
@@ -99,10 +98,6 @@ public class Policelogin extends javax.swing.JFrame {
         });
         jPanel1.add(txt_combo);
         txt_combo.setBounds(560, 680, 250, 40);
-
-        txt_password.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        jPanel1.add(txt_password);
-        txt_password.setBounds(466, 575, 430, 40);
 
         jPanel2.setLayout(null);
 
@@ -270,7 +265,6 @@ public class Policelogin extends javax.swing.JFrame {
     private javax.swing.JMenu lbl_date;
     private javax.swing.JMenu lbl_time;
     private javax.swing.JComboBox<String> txt_combo;
-    private javax.swing.JPasswordField txt_password;
     private javax.swing.JTextField txt_username;
     // End of variables declaration//GEN-END:variables
 private void systemExit()
